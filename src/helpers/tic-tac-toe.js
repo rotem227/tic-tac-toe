@@ -25,13 +25,13 @@ export default class TicTacToe {
         return arr.every( ( value ) => value && value === arr[ 0 ] );
     }
 
-    getRandomPlayer = () => {
+    getRandomPlayer() {
         const rand = Math.ceil( Math.random() * 2 ) - 1;
 
         return this.players[ rand ];
     }
 
-    getNextPlayer = () => {
+    getNextPlayer() {
         return this.currentPlayer === this.players[ 0 ] ? this.players[ 1 ] : this.players[ 0 ];
     }
     
