@@ -1,4 +1,3 @@
-
 import { useState, useCallback, useEffect, useRef } from 'react';
 
 import TicTacToe from '../helpers/tic-tac-toe';
